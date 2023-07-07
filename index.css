@@ -31,3 +31,27 @@
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.end-side {
+  display: flex;
+  gap: 10px;
+}
+
+.end-side .img2,
+.end-side .img3 {
+  width: 20px;
+  height: 20px;
+  order: -2;
+}
+.end-side .img2 {
+  order: -1;
+}
